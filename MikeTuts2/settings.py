@@ -72,6 +72,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    ('assets','/home/sb-u64/localcode/Python/Django/MikeTuts2/static'),
 )
 
 # List of finder classes that know how to find static files in
@@ -112,6 +113,7 @@ TEMPLATE_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
     '/home/sb-u64/localcode/Python/Django/MikeTuts2/templates',
+    '/home/sb-u64/localcode/Python/Django/MikeTuts2/articles/templates',
 )
 
 INSTALLED_APPS = (
